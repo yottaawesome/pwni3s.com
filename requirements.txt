@@ -1,0 +1,7 @@
+# Remember to only put the dependencies you need. pip freeze will put dependencies of dependencies into requirements, which can cause problems.
+# See also: https://medium.com/@alonisser/things-i-wish-pip-learned-from-npm-f712fa26f5bc
+Flask==1.0.2
+
+#https://stackoverflow.com/questions/39577984/what-is-pkg-resources-0-0-0-in-output-of-pip-freeze-command
+#pkg-resources==0.0.0
+
