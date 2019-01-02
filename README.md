@@ -13,6 +13,8 @@ You will find the Inferno source in the `client` folder, and the server source i
 It's a work in progress. I chase multiple projects at once, not all of which are on GitHub. :-)
 
 ## Running it
+These instructions are intended for Linux-based environments. If you're trying to run this on Windows, I admire your bravery, but you're on your own.
+
 1. Clone repo
 2. CD into <repo root>/server
 3. Install dependencies: `pip3 install --user -r requirements.txt`
