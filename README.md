@@ -17,8 +17,10 @@ You'll need Python3, Pip3 and virtualenv in a Linux-based environment. If you're
 
 1. Clone repo
 2. CD into <repo root>/server
-3. Install dependencies: `pip3 install --user -r requirements.txt`
-4. Run dev server: `sh run-env`
+3. Create virtualenv (note that the script below assumes you've called it "env"): `virtualenv env`
+4. Activate the virtualenv: `source ./env/bin/activate`
+5. Install dependencies: `pip3 install --user -r requirements.txt`
+6. Run dev server: `sh run-env`
 
 At some point, I'll also add a Dockerfile and containerize the application.
 
